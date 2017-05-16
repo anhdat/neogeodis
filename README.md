@@ -11,7 +11,13 @@ This requires you to have a running instance of Redis at port 6379. You can do t
 docker run -it -p 6379 --name geodis-redis redis
 ```
 
-Then to neogeodis. First, run:
+Then to neogeodis. First, install requirements:
+
+```
+pip install -r requirements.txt
+```
+
+Then import sample data:
 
 ```
 python import.py
